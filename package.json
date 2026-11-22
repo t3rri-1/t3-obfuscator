@@ -1,0 +1,30 @@
+{
+  "name": "t3-obfuscator",
+  "version": "1.0.0",
+  "description": "Dependency-free JavaScript obfuscator: identifier renaming, string/number encoding, dead-code injection, and a self-decoding wrapper.",
+  "main": "lib/index.js",
+  "bin": {
+    "t3-obfuscator": "bin/t3-obfuscator.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/rename-check.js && node test/e2e-check.js"
+  },
+  "keywords": [
+    "obfuscator",
+    "obfuscation",
+    "minify",
+    "javascript",
+    "js",
+    "code-protection"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  }
+}
